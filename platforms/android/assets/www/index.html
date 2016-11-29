@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>LearnABC</title>
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no; target-densityDpi=device-dpi" />
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.3.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script></script>
+</head>
+
+<body> 
+
+<!-- Start of first page -->
+<div data-role="page" id="start_page">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+	<center><img src="img/logo.png" width="200" height="200" >
+		<p><center><h3>LearnABC</h3></p>		
+		<p><center><a href="#list" data-transition="slide" >START</a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+
+
+<!-- Start of list page -->
+<div data-role="page" id="list">
+
+	<div data-role="header">
+		<h1>ABCD..</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+      <div>
+        <ul data-role="listview" data-theme="a">
+	<li><a href="#a">A</a></li>
+	<li><a href="#b">B</a></li>
+	<li><a href="#c">C</a></li>
+	<li><a href="#d">D</a></li>
+	<li><a href="#e">E</a></li>
+	<li><a href="#f">F</a></li>
+	<li><a href="#g">G</a></li>
+	<li><a href="#h">H</a></li>
+	<li><a href="#i">I</a></li>
+	<li><a href="#j">J</a></li>
+	<li><a href="#k">K</a></li>
+	<li><a href="#l">L</a></li>
+	<li><a href="#m">M</a></li>
+	<li><a href="#n">N</a></li>
+	<li><a href="#o">O</a></li>
+	<li><a href="#p">P</a></li>
+	<li><a href="#q">Q</a></li>
+	<li><a href="#r">R</a></li>
+	<li><a href="#s">S</a></li>
+	<li><a href="#t">T</a></li>
+	<li><a href="#u">U</a></li>
+	<li><a href="#v">V</a></li>
+	<li><a href="#w">W</a></li>
+	<li><a href="#x">X</a></li>
+	<li><a href="#y">Y</a></li>
+	<li><a href="#z">Z</a></li>
+	</ul>
+      </div> 
+    </div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+
+
+<!-- Start of a page-->
+<div data-role="page" id="a">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+		<center><img src="img/a.png" width="200" height="200" >
+	<p>
+		<audio id="a_sound" src="sounds/a.mp3" type="audio/mpeg"></audio>
+		<center><a href="#" onclick="document.getElementById('a_sound').play()" class="ui-btn ui-corner-all ui-icon-audio ui-btn-icon-notext">Audio Icon</a>
+   	</p>		
+		<center><a href="#list" data-transition="slide" data-direction="reverse">List</a>
+		<a style="float: right" href="#b" data-transition="slide">>></a>
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+
+<!-- Start of b page-->
+<div data-role="page" id="b">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<center><img src="img/b.png" width="200" height="200" >
+		<p>
+		<audio id="b_sound" src="sounds/b.mp3" type="audio/mpeg"></audio>
+		<center><a href="#" onclick="document.getElementById('b_sound').play()" class="ui-btn ui-corner-all ui-icon-audio ui-btn-icon-notext">Audio Icon</a>
+   		</p>		
+		<p><a style="float: left" href="#a" data-transition="slide"  data-direction="reverse"><<</a>
+		<center><a href="#list" data-transition="slide" data-direction="reverse">List</a>
+		<a style="float:right" href="#c" data-transition="slide">>></a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+
+<!-- Start of c page-->
+<div data-role="page" id="c">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<center><img src="img/c.png" width="200" height="200" >
+		<p>
+		<audio id="c_sound" src="sounds/c.mp3" type="audio/mpeg"></audio>
+		<center><a href="#" onclick="document.getElementById('c_sound').play()" class="ui-btn ui-corner-all ui-icon-audio ui-btn-icon-notext">Audio Icon</a>
+   		</p>		
+		<a style="float: left" href="#b" data-transition="slide"  data-direction="reverse"><<</a>
+		<center><a href="#list" data-transition="slide"data-direction="reverse">List</a>
+		<a style="float: right" href="#d" data-transition="slide" >>></a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+<!-- Start of d page-->
+<div data-role="page" id="d">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<center><img src="img/d.png" width="200" height="200" >
+		<p>
+		<audio id="d_sound" src="sounds/d.mp3" type="audio/mpeg"></audio>
+		<center><a href="#" onclick="document.getElementById('d_sound').play()" class="ui-btn ui-corner-all ui-icon-audio ui-btn-icon-notext">Audio Icon</a>
+   		</p>		
+		<a style="float: left" href="#c" data-transition="slide"  data-direction="reverse"><<</a>
+		<center><a href="#list" data-transition="slide"data-direction="reverse">List</a>
+		<a style="float: right" href="#e" data-transition="slide" >>></a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+<!-- Start of e page-->
+<div data-role="page" id="e">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<center><img src="img/e.png" width="200" height="200" >
+		<p>
+		<audio id="e_sound" src="sounds/e.mp3" type="audio/mpeg"></audio>
+		<center><a href="#" onclick="document.getElementById('e_sound').play()" class="ui-btn ui-corner-all ui-icon-audio ui-btn-icon-notext">Audio Icon</a>
+   		</p>		
+		<a style="float: left" href="#d" data-transition="slide"  data-direction="reverse"><<</a>
+		<center><a href="#list" data-transition="slide"data-direction="reverse">List</a>
+		<a style="float: right" href="#f" data-transition="slide" >>></a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+<!-- Start of f page-->
+<div data-role="page" id="f">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<center><img src="img/f.png" width="200" height="200" >
+		<p>
+		<audio id="f_sound" src="sounds/f.mp3" type="audio/mpeg"></audio>
+		<center><a href="#" onclick="document.getElementById('f_sound').play()" class="ui-btn ui-corner-all ui-icon-audio ui-btn-icon-notext">Audio Icon</a>
+   		</p>		
+		<a style="float: left" href="#e" data-transition="slide"  data-direction="reverse"><<</a>
+		<center><a href="#list" data-transition="slide"data-direction="reverse">List</a>
+		<a style="float: right" href="#g" data-transition="slide" >>></a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+<!-- Start of g page-->
+<div data-role="page" id="g">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<center><img src="img/g.png" width="200" height="200" >
+		<p>
+		<audio id="f_sound" src="sounds/g.mp3" type="audio/mpeg"></audio>
+		<center><a href="#" onclick="document.getElementById('g_sound').play()" class="ui-btn ui-corner-all ui-icon-audio ui-btn-icon-notext">Audio Icon</a>
+   		</p>		
+		<a style="float: left" href="#f" data-transition="slide"  data-direction="reverse"><<</a>
+		<center><a href="#list" data-transition="slide"data-direction="reverse">List</a>
+		<a style="float: right" href="#h" data-transition="slide" >>></a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+<!-- Start of h page-->
+<div data-role="page" id="h">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<center><img src="img/h.png" width="200" height="200" >
+		<p>
+		<audio id="h_sound" src="sounds/h.mp3" type="audio/mpeg"></audio>
+		<center><a href="#" onclick="document.getElementById('h_sound').play()" class="ui-btn ui-corner-all ui-icon-audio ui-btn-icon-notext">Audio Icon</a>
+   		</p>		
+		<a style="float: left" href="#g" data-transition="slide"  data-direction="reverse"><<</a>
+		<center><a href="#list" data-transition="slide"data-direction="reverse">List</a>
+		<a style="float: right" href="#i" data-transition="slide" >>></a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+<!-- Start of i page-->
+<div data-role="page" id="i">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<center><img src="img/i.png" width="200" height="200" >
+		<p>
+		<audio id="i_sound" src="sounds/i.mp3" type="audio/mpeg"></audio>
+		<center><a href="#" onclick="document.getElementById('i_sound').play()" class="ui-btn ui-corner-all ui-icon-audio ui-btn-icon-notext">Audio Icon</a>
+   		</p>		
+		<a style="float: left" href="#h" data-transition="slide"  data-direction="reverse"><<</a>
+		<center><a href="#list" data-transition="slide"data-direction="reverse">List</a>
+		<a style="float: right" href="#j" data-transition="slide" >>></a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+<!-- Start of j page-->
+<div data-role="page" id="j">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<center><img src="img/j.png" width="200" height="200" >
+		<p>
+		<audio id="j_sound" src="sounds/j.mp3" type="audio/mpeg"></audio>
+		<center><a href="#" onclick="document.getElementById('j_sound').play()" class="ui-btn ui-corner-all ui-icon-audio ui-btn-icon-notext">Audio Icon</a>
+   		</p>		
+		<a style="float: left" href="#i" data-transition="slide"  data-direction="reverse"><<</a>
+		<center><a href="#list" data-transition="slide"data-direction="reverse">List</a>
+		<a style="float: right" href="#k" data-transition="slide" >>></a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+
+<!-- Start of k page-->
+<div data-role="page" id="k">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<center><img src="img/k.png" width="200" height="200" >
+		<p>
+		<audio id="k_sound" src="sounds/k.mp3" type="audio/mpeg"></audio>
+		<center><a href="#" onclick="document.getElementById('k_sound').play()" class="ui-btn ui-corner-all ui-icon-audio ui-btn-icon-notext">Audio Icon</a>
+   		</p>		
+		<a style="float: left" href="#j" data-transition="slide"  data-direction="reverse"><<</a>
+		<center><a href="#list" data-transition="slide"data-direction="reverse">List</a>
+		<a style="float: right" href="#l" data-transition="slide" >>></a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+<!-- Start of l page-->
+<div data-role="page" id="l">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<center><img src="img/l.png" width="200" height="200" >
+		<p>
+		<audio id="l_sound" src="sounds/l.mp3" type="audio/mpeg"></audio>
+		<center><a href="#" onclick="document.getElementById('l_sound').play()" class="ui-btn ui-corner-all ui-icon-audio ui-btn-icon-notext">Audio Icon</a>
+   		</p>		
+		<a style="float: left" href="#k" data-transition="slide"  data-direction="reverse"><<</a>
+		<center><a href="#list" data-transition="slide"data-direction="reverse">List</a>
+		<a style="float: right" href="#m" data-transition="slide" >>></a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+<!-- Start of m page-->
+<div data-role="page" id="m">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<center><img src="img/m.png" width="200" height="200" >
+		<p>
+		<audio id="m_sound" src="sounds/m.mp3" type="audio/mpeg"></audio>
+		<center><a href="#" onclick="document.getElementById('m_sound').play()" class="ui-btn ui-corner-all ui-icon-audio ui-btn-icon-notext">Audio Icon</a>
+   		</p>		
+		<a style="float: left" href="#l" data-transition="slide"  data-direction="reverse"><<</a>
+		<center><a href="#list" data-transition="slide"data-direction="reverse">List</a>
+		<a style="float: right" href="#n" data-transition="slide" >>></a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+<!-- Start of n page-->
+<div data-role="page" id="n">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<center><img src="img/n.png" width="200" height="200" >
+		<p>
+		<audio id="n_sound" src="sounds/n.mp3" type="audio/mpeg"></audio>
+		<center><a href="#" onclick="document.getElementById('n_sound').play()" class="ui-btn ui-corner-all ui-icon-audio ui-btn-icon-notext">Audio Icon</a>
+   		</p>		
+		<a style="float: left" href="#m" data-transition="slide"  data-direction="reverse"><<</a>
+		<center><a href="#list" data-transition="slide"data-direction="reverse">List</a>
+		<a style="float: right" href="#o" data-transition="slide" >>></a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+
+<!-- Start of o page-->
+<div data-role="page" id="o">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<center><img src="img/o.png" width="200" height="200" >
+		<p>
+		<audio id="o_sound" src="sounds/o.mp3" type="audio/mpeg"></audio>
+		<center><a href="#" onclick="document.getElementById('o_sound').play()" class="ui-btn ui-corner-all ui-icon-audio ui-btn-icon-notext">Audio Icon</a>
+   		</p>		
+		<a style="float: left" href="#n" data-transition="slide"  data-direction="reverse"><<</a>
+		<center><a href="#list" data-transition="slide"data-direction="reverse">List</a>
+		<a style="float: right" href="#p" data-transition="slide" >>></a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+<!-- Start of p page-->
+<div data-role="page" id="p">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<center><img src="img/p.png" width="200" height="200" >
+		<p>
+		<audio id="p_sound" src="sounds/p.mp3" type="audio/mpeg"></audio>
+		<center><a href="#" onclick="document.getElementById('p_sound').play()" class="ui-btn ui-corner-all ui-icon-audio ui-btn-icon-notext">Audio Icon</a>
+   		</p>		
+		<a style="float: left" href="#o" data-transition="slide"  data-direction="reverse"><<</a>
+		<center><a href="#list" data-transition="slide"data-direction="reverse">List</a>
+		<a style="float: right" href="#q" data-transition="slide" >>></a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+<!-- Start of q page-->
+<div data-role="page" id="q">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<center><img src="img/q.png" width="200" height="200" >
+		<p>
+		<audio id="q_sound" src="sounds/q.mp3" type="audio/mpeg"></audio>
+		<center><a href="#" onclick="document.getElementById('q_sound').play()" class="ui-btn ui-corner-all ui-icon-audio ui-btn-icon-notext">Audio Icon</a>
+   		</p>		
+		<a style="float: left" href="#p" data-transition="slide"  data-direction="reverse"><<</a>
+		<center><a href="#list" data-transition="slide"data-direction="reverse">List</a>
+		<a style="float: right" href="#r" data-transition="slide" >>></a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+<!-- Start of r page-->
+<div data-role="page" id="r">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<center><img src="img/r.png" width="200" height="200" >
+		<p>
+		<audio id="r_sound" src="sounds/r.mp3" type="audio/mpeg"></audio>
+		<center><a href="#" onclick="document.getElementById('r_sound').play()" class="ui-btn ui-corner-all ui-icon-audio ui-btn-icon-notext">Audio Icon</a>
+   		</p>		
+		<a style="float: left" href="#q" data-transition="slide"  data-direction="reverse"><<</a>
+		<center><a href="#list" data-transition="slide"data-direction="reverse">List</a>
+		<a style="float: right" href="#s" data-transition="slide" >>></a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+
+<!-- Start of s page-->
+<div data-role="page" id="s">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<center><img src="img/s.png" width="200" height="200" >
+		<p>
+		<audio id="s_sound" src="sounds/s.mp3" type="audio/mpeg"></audio>
+		<center><a href="#" onclick="document.getElementById('s_sound').play()" class="ui-btn ui-corner-all ui-icon-audio ui-btn-icon-notext">Audio Icon</a>
+   		</p>		
+		<a style="float: left" href="#r" data-transition="slide"  data-direction="reverse"><<</a>
+		<center><a href="#list" data-transition="slide"data-direction="reverse">List</a>
+		<a style="float: right" href="#t" data-transition="slide" >>></a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+<!-- Start of t page-->
+<div data-role="page" id="t">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<center><img src="img/t.png" width="200" height="200" >
+		<p>
+		<audio id="t_sound" src="sounds/t.mp3" type="audio/mpeg"></audio>
+		<center><a href="#" onclick="document.getElementById('t_sound').play()" class="ui-btn ui-corner-all ui-icon-audio ui-btn-icon-notext">Audio Icon</a>
+   		</p>		
+		<a style="float: left" href="#s" data-transition="slide"  data-direction="reverse"><<</a>
+		<center><a href="#list" data-transition="slide"data-direction="reverse">List</a>
+		<a style="float: right" href="#u" data-transition="slide" >>></a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+<!-- Start of u page-->
+<div data-role="page" id="u">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<center><img src="img/u.png" width="200" height="200" >
+		<p>
+		<audio id="u_sound" src="sounds/u.mp3" type="audio/mpeg"></audio>
+		<center><a href="#" onclick="document.getElementById('u_sound').play()" class="ui-btn ui-corner-all ui-icon-audio ui-btn-icon-notext">Audio Icon</a>
+   		</p>		
+		<a style="float: left" href="#t" data-transition="slide"  data-direction="reverse"><<</a>
+		<center><a href="#list" data-transition="slide"data-direction="reverse">List</a>
+		<a style="float: right" href="#v" data-transition="slide" >>></a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+<!-- Start of v page-->
+<div data-role="page" id="v">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<center><img src="img/v.png" width="200" height="200" >
+		<p>
+		<audio id="v_sound" src="sounds/v.mp3" type="audio/mpeg"></audio>
+		<center><a href="#" onclick="document.getElementById('v_sound').play()" class="ui-btn ui-corner-all ui-icon-audio ui-btn-icon-notext">Audio Icon</a>
+   		</p>		
+		<a style="float: left" href="#u" data-transition="slide"  data-direction="reverse"><<</a>
+		<center><a href="#list" data-transition="slide"data-direction="reverse">List</a>
+		<a style="float: right" href="#w" data-transition="slide" >>></a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+
+<!-- Start of w page-->
+<div data-role="page" id="w">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<center><img src="img/w.png" width="200" height="200" >
+		<p>
+		<audio id="w_sound" src="sounds/w.mp3" type="audio/mpeg"></audio>
+		<center><a href="#" onclick="document.getElementById('w_sound').play()" class="ui-btn ui-corner-all ui-icon-audio ui-btn-icon-notext">Audio Icon</a>
+   		</p>		
+		<a style="float: left" href="#v" data-transition="slide"  data-direction="reverse"><<</a>
+		<center><a href="#list" data-transition="slide"data-direction="reverse">List</a>
+		<a style="float: right" href="#x" data-transition="slide" >>></a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+<!-- Start of x page-->
+<div data-role="page" id="x">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<center><img src="img/x.png" width="200" height="200" >
+		<p>
+		<audio id="x_sound" src="sounds/x.mp3" type="audio/mpeg"></audio>
+		<center><a href="#" onclick="document.getElementById('x_sound').play()" class="ui-btn ui-corner-all ui-icon-audio ui-btn-icon-notext">Audio Icon</a>
+   		</p>		
+		<a style="float: left" href="#w" data-transition="slide"  data-direction="reverse"><<</a>
+		<center><a href="#list" data-transition="slide"data-direction="reverse">List</a>
+		<a style="float: right" href="#y" data-transition="slide" >>></a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+<!-- Start of y page-->
+<div data-role="page" id="y">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<center><img src="img/y.png" width="200" height="200" >
+		<p>
+		<audio id="y_sound" src="sounds/y.mp3" type="audio/mpeg"></audio>
+		<center><a href="#" onclick="document.getElementById('y_sound').play()" class="ui-btn ui-corner-all ui-icon-audio ui-btn-icon-notext">Audio Icon</a>
+   		</p>		
+		<a style="float: left" href="#x" data-transition="slide"  data-direction="reverse"><<</a>
+		<center><a href="#list" data-transition="slide"data-direction="reverse">List</a>
+		<a style="float: right" href="#z" data-transition="slide" >>></a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+<!-- Start of z page-->
+<div data-role="page" id="z">
+
+	<div data-role="header">
+		<h1>LearnABC</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<center><img src="img/z.png" width="200" height="200" >
+		<p>
+		<audio id="z_sound" src="sounds/z.mp3" type="audio/mpeg"></audio>
+		<center><a href="#" onclick="document.getElementById('z_sound').play()" class="ui-btn ui-corner-all ui-icon-audio ui-btn-icon-notext">Audio Icon</a>
+   		</p>		
+		<a style="float: left" href="#y" data-transition="slide"  data-direction="reverse"><<</a>
+		<center><a href="#list" data-transition="slide"data-direction="reverse">List</a>
+		</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Team-2</h4>
+	</div><!-- /header -->
+</div><!-- /page -->
+
+
+
+
+</body>
+
+
+</html>
